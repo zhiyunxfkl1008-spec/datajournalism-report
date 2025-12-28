@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>2025网约车数据报告</title><script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;500;700&display=swap" rel="stylesheet"><style>:root { --theme-color: #34d399; --bg-color: #0f172a; } body { font-family: 'Noto Sans SC', sans-serif; background-color: #000; color: #fff; height: 100vh; margin: 0; overflow: hidden; display: flex; justify-content: center; } #app-root { width: 100%; height: 100%; max-width: 500px; background-color: var(--bg-color); position: relative; box-shadow: 0 0 50px rgba(0,0,0,0.5); } .text-theme { color: var(--theme-color) !important; } .bg-theme { background-color: var(--theme-color) !important; } .swiper { width: 100%; height: 100%; } .swiper-slide { height: auto !important; min-height: 100vh; position: relative; display: flex; flex-direction: column; padding-bottom: 80px; box-sizing: border-box; } .swiper-slide::-webkit-scrollbar { width: 0px; background: transparent; } .arrow-up { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); animation: bounce 2s infinite; opacity: 0.7; z-index: 50; pointer-events: none; } @keyframes bounce { 0%, 100% {transform: translateX(-50%) translateY(0);} 50% {transform: translateX(-50%) translateY(-10px);} } .chart-box { width: 100%; background: #000000; border-radius: 8px; overflow: hidden; margin-bottom: 1rem; position: relative; } .chart-box iframe { width: 100%; height: 100%; border: none; pointer-events: auto; } .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1rem; width: 100%; } .compare-item { background: rgba(255,255,255,0.05); padding: 12px; border-radius: 8px; text-align: center; } .has-bg-image { background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important; } .has-bg-image::before { content: ''; position: absolute; inset: 0; background-color: #000; opacity: var(--mask-opacity, 0.7); z-index: 0; pointer-events: none; } .has-bg-image > * { position: relative; z-index: 10; } </style></head><body><div id="app-root">
+        <div class="swiper mySwiper swiper-initialized swiper-vertical swiper-free-mode swiper-backface-hidden">
+            <div class="swiper-wrapper" aria-live="polite">
+
+                <!-- Slide 1: 封面 -->
+                <div class="swiper-slide p-8 justify-center text-center bg-slate-900 slide-content has-bg-image" aria-label="1 / 8">
+                    <div class="editable-text text-theme border border-theme px-3 py-1 rounded-full text-xs inline-block mb-4" contenteditable="false" style="font-size: 16px; color: rgb(242, 242, 242);">2025 年新能源汽车发展观察</div>
+                    <h1 class="editable-text text-4xl font-bold mb-4 leading-tight" contenteditable="false" style="text-align: center; font-size: 34px; line-height: 1.2; color: rgb(255, 255, 255);">当你是一名网约车司机：</h1>
+                    <p class="editable-text text-slate-400 text-sm mb-8" style="line-height: 1.6;" contenteditable="false"><h1 class="editable-text text-4xl font-bold mb-4 leading-tight" style="--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-size: 34px; transition-property: all; line-height: 1.2; color: rgb(52, 211, 153); text-align: left;" contenteditable="false">“弃油投电”背后的经济帐</h1></p>
+                    <div class="animate-bounce text-theme mt-10 text-2xl"><i class="fas fa-chevron-down"></i></div>
+                </div>
+
+                <!-- Slide 2: 市场 -->
+                <div class="swiper-slide p-6 bg-slate-800 slide-content" aria-label="2 / 8">
+                    <p class="editable-text text-xs text-slate-400 mb-4" contenteditable="false" style="font-size: 17px; line-height: 1.6; color: rgb(255, 255, 255);">&nbsp; &nbsp; 2025年10月，我国新能源汽车新车销量占有率首次过半。这一市场趋势也在网约车市场得到体现，假如你是一名网约车司机，面对燃油车和新能源汽车，你会怎么选？</p><h2 class="editable-text text-xl font-bold text-theme mb-2" contenteditable="false">01 选择新能源汽车是大势所趋？</h2>
+                    
+                    
+                    <div class="chart-box" data-height="260" contenteditable="false" style="height: 410px;">
+                        <div class="chart-placeholder" style="display: none;">点击配置图表链接</div>
+                        <iframe src="https://dycharts.com/xshow/index.html?id=c_c266f024163c841e44003d40c6edac47"></iframe>
+                    </div>
+
+                    
+                <p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.6; font-size: 16px;" contenteditable="false">&nbsp; &nbsp; 受疫情供应链影响，2020-2022年全汽车销量呈“窄幅波动”态势，部分月份出现同比下滑，自2023 年起进入回升通道，增速主要由新能源汽车贡献。新能源汽车销量6年间持续稳步上升，从2020 年1月的4.4万辆攀升至 2025 年 11月的近140万辆，成为拉动全汽车市场增长的核心力量。</p></div>
+
+                <!-- Slide 3: 成本 -->
+                <div class="swiper-slide p-6 bg-slate-800 slide-content" aria-label="3 / 8"><h2 class="editable-text text-xl font-bold text-theme mb-2" contenteditable="false"><h2 class="editable-text text-xl font-bold text-theme mb-2" style="--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; z-index: 10; transition-property: all; color: rgb(52, 211, 153) !important;" contenteditable="false"><span style="--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-size: 1.25rem;">新能源汽车在网约车中占比变化</span></h2></h2><p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.5; font-size: 17px;" contenteditable="false">&nbsp; &nbsp; 滴滴网约车平台2023-2024年度报告数据显示：2023年平台注册新能源车超400万辆，其中纯电动汽车350万辆；2024年，滴滴平台注册的新能源车累计超600万辆，其中纯电动汽车约510万辆，一年间增长 50%。</p><p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.5; color: rgb(52, 211, 153); font-size: 18px;" contenteditable="false">新能源汽车网约车服务里程占比</p><div class="chart-box mt-4" style="height: 350px;" contenteditable="false"><div class="chart-placeholder" style="display: none;">点击配置图表</div><iframe src="https://dycharts.com/xshow/index.html?id=c_7e6c6909081c3db2275104f91d229642"></iframe></div><p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.6; font-size: 17px;" contenteditable="false">&nbsp; &nbsp; 新能源汽车服务里程占比从 2023 年的 57% 跃升至 2024 年的 68%—— 意味着每 10 单网约车中，近 7 单由新能源车完成。客观数据显示，网约车市场“新能源化”趋势已不可逆”</p></div><div class="swiper-slide p-6 bg-slate-900 slide-content" aria-label="4 / 8">
+                    <h2 class="editable-text text-xl font-bold text-theme mb-2" contenteditable="false">02 选择新能源汽车真的便宜吗？</h2>
+                    <p class="editable-text text-xs text-slate-400 mb-4" contenteditable="false" style="font-size: 15px;">常见燃油网约车与新能源网约车价格对比</p>
+                    <div class="chart-box" data-height="300" style="height: 387px;" contenteditable="false">
+                        <div class="chart-placeholder" style="display: none;">点击配置图表</div>
+                        <iframe src="https://dycharts.com/xshow/index.html?id=c_da7b0a695b6bc6ef123e220071466c90"></iframe>
+                    </div>
+                    
+                    <div class="compare-grid chart-box" style="height: auto; background: transparent; margin-top: 1rem;">
+                        <div class="compare-item bg-slate-800">
+                            <div class="editable-text text-xs text-slate-400">油车 (蓝牌)</div>
+                            <div class="editable-text text-lg font-bold text-slate-300" contenteditable="false">¥109,100</div>
+                        </div>
+                        <div class="compare-item bg-slate-800">
+                            <div class="editable-text text-xs text-theme">电车 (绿牌)</div>
+                            <div class="editable-text text-lg font-bold text-theme" contenteditable="false">¥95,050</div>
+                        </div>
+                    </div>
+                <p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.5; font-size: 16px;" contenteditable="false">&nbsp; &nbsp; 虽然部分高端电动车型售价偏高，但主流网约车型中，电车均价（95050元），较油车（均价109100元）低约 13%。<div><br><div>&nbsp; &nbsp; 更关键的是运营成本：以年均行驶 10 万公里计算，电车电费约 1.2 万元，仅为油车油费（约 3.6 万元）的 1/3。按此计算，3 年即可抹平购车差价，长期收益优势显著。</div></div></p></div><div class="swiper-slide p-6 bg-slate-800 slide-content" aria-label="8 / 8"><h2 class="editable-text text-xl font-bold text-theme mb-2" contenteditable="false">03 选择新能源汽车真的方便吗？</h2><p class="editable-text text-xs text-slate-400 mb-4" contenteditable="false" style="font-size: 15px; line-height: 1.2;">2017-2025年我国新能源汽车保有量与充电基础设施对比</p><div class="chart-box mt-4" style="height: 398px;" contenteditable="false"><div class="chart-placeholder" style="display: none;">点击配置图表</div><iframe src="https://dycharts.com/xshow/index.html?id=c_1e7746d583b1ed97e6e74a717cb1e543"></iframe></div><p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.6; font-size: 17px;" contenteditable="false">&nbsp; &nbsp; 随着新能源汽车保有量的快速攀升，新能源汽车充电基础设施总量从2017年的44.6万增至2025年的1932.2万，车桩比不断优化，到2025年已低至约1.9:1。</p><div class="compare-grid chart-box" style="height: auto; background: transparent;"><div class="compare-item bg-slate-700/50"><div class="editable-text text-xs text-slate-400" contenteditable="false">2017年全国车桩比</div><div class="editable-text text-xl font-bold text-slate-200" contenteditable="false">3.43:1</div></div><div class="compare-item bg-theme/10 border border-theme/30"><div class="editable-text text-xs text-theme" contenteditable="false">2025年全国车桩比</div><div class="editable-text text-xl font-bold text-theme" contenteditable="false">1.91:1</div></div></div></div><div class="swiper-slide p-6 bg-slate-800 slide-content" aria-label="5 / 8">
+                    <p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.5; font-size: 17px;" contenteditable="false">车桩比逐年下降意味着什么呢？我们以北京为例，具体看看如今网约车司机日常工作中，充电是否更方便。</p><h2 class="editable-text text-xl font-bold text-theme mb-2" contenteditable="false">北京市新能源汽车充电桩分布</h2>
+                    
+                    
+                    <p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.2; font-size: 12px;" contenteditable="false">地图可自由缩放拖动查看</p><div class="chart-box" data-height="400" style="height: 400px;" contenteditable="false">
+                        <div class="chart-placeholder" style="display: none;">
+                            <i class="fas fa-map-marked-alt text-2xl mb-2"></i>
+                            <div>在此处输入您的地图文件名<br>(如: map.html)</div>
+                        </div>
+                        <iframe src="file:///Users/chenzhiyun/Desktop/python%E5%AD%A6%E4%B9%A0/beijingmap.html"></iframe>
+                    </div>
+
+                    <p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.3; font-size: 12px;" contenteditable="false">数据受平台限制，仅选取部分数据进行展示</p><div class="bg-slate-700/50 p-4 rounded mt-4">
+                        <h3 class="editable-text text-sm font-bold mb-2" contenteditable="false" style="font-size: 15px;">北京数据</h3>
+                        <p class="editable-text text-xs text-slate-300" contenteditable="false" style="font-size: 15px; line-height: 1.4;">2025年北京车桩比达到&nbsp;<span class="text-theme font-bold">3.12 : 1</span><br>
+                            已基本实现核心城区全覆盖，范围广、密度高，找桩充电更方便。</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4: 基础设施 (地图位) -->
+                
+
+                <!-- Slide 5: 外部因素 -->
+                <div class="swiper-slide p-6 bg-slate-900 slide-content" aria-label="6 / 8">
+                    <h2 class="editable-text text-xl font-bold text-theme mb-6" contenteditable="false">04 政策影响决策</h2>
+                    
+                    <p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.5; font-size: 17px;" contenteditable="false">&nbsp; &nbsp; 选择新能源汽车不仅是受大势所趋，更是国家政策的体现。<div><div>&nbsp; &nbsp; 我国政府从2009年开始对新能源汽车实行系统性扶持，优惠政策一直持续到2025年。构建起包含财政补贴、购置税减免、路权优先等在内的完整政策体系。</div></div></p><div class="bg-slate-800 p-5 rounded-lg mb-6 border-l-4 border-blue-500">
+                        <h3 class="editable-text font-bold mb-2" contenteditable="false" style="font-size: 18px; line-height: 1.7;">新能源汽车政策倾斜</h3>
+                        <div class="flex justify-between text-sm mb-2"><span class="text-slate-400 editable-text" contenteditable="false" style="font-size: 15px;">购置税政策</span><span class="font-bold editable-text" contenteditable="false" style="font-size: 14px;">2026年起减半征收购置税（税率5%）</span></div>
+                        <div class="flex justify-between text-sm"><span class="text-slate-400 editable-text" contenteditable="false" style="font-size: 15px;">购置补贴</span><span class="font-bold text-theme editable-text" contenteditable="false" style="font-size: 14px;">国补取消，以旧换新政策出台，最高补贴1.5万元</span></div>
+                    </div>
+
+                    <p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.6; font-size: 16px;" contenteditable="false">&nbsp; &nbsp; 政策并非一成不变。随着新能源汽车产业逐步成熟，国家层面的直接购车补贴已在近年取消，转而通过“以旧换新”等方式进行结构性支持。<div>&nbsp; &nbsp; 今年国家在对新能源汽车的路权政策上也不断收紧，但仍有部分城市继续实行新能源汽车路权优先政策。</div></p><div class="bg-slate-800 p-5 rounded-lg border-l-4 border-theme">
+                        <h3 class="editable-text font-bold mb-2" contenteditable="false" style="font-size: 18px;">路权差异</h3>
+                        <p class="editable-text text-xs text-slate-300" style="line-height: 1.6; font-size: 15px;" contenteditable="false">
+                            <span class="text-red-400 font-bold">蓝牌（燃油车）</span>：基本实行尾号限行制<br>
+                            <span class="text-theme font-bold">绿牌（新能源汽车）</span>：部分城市不受尾号限行</p>
+                    </div><p class="editable-text text-sm text-slate-300 mb-4" style="line-height:1.5" contenteditable="false"><br></p><p class="editable-text text-sm text-slate-300 mb-4" style="line-height: 1.5; font-size: 16px;" contenteditable="false">&nbsp; &nbsp;&nbsp;<span style="font-size: 17px;">对个体司机而言，政策影响不再只是“一次性补贴多少钱”，而是体现在长期用车成本、通行便利和运营效率等更隐性的层面。</span></p>
+                </div><div class="swiper-slide p-8 bg-slate-800 justify-center text-center slide-content" aria-label="7 / 8">
+                    <h2 class="editable-text text-3xl font-bold mb-6" contenteditable="false" style="color: rgb(52, 211, 153);">写在最后</h2>
+                    <p class="editable-text text-lg text-slate-300 leading-relaxed mb-8" style="line-height: 1.8; text-align: left;" contenteditable="false"><div><span style="font-size: 17px;">&nbsp; &nbsp; 从购车成本到运营开支，从基础设施到政策支持，新能源汽车的出现为网约车司机节省成本，增加收入提供了一个最佳选项。</span></div><div><span style="font-size: 17px;"><br></span></div><div><span style="font-size: 17px;">&nbsp; &nbsp; 选择新能源汽车，不仅是顺应市场趋势，更是提升竞争力的必然选择；这样的一笔经济帐也是新能源汽车销量一路飙升的最好解释。</span></div></p>
+                    <button class="bg-theme text-black font-bold px-8 py-3 rounded-full shadow-lg">分享指南</button>
+                    <p class="editable-text text-xs text-slate-500 mt-12" contenteditable="false">数据来源：公安部/工信局/能源局/北京市政府/滴滴/高德地图/百度地图</p>
+                </div>
+
+                <!-- Slide 6: 总结 -->
+                
+
+            </div>
+            <!-- 滚动条 -->
+            
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    </div><script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script><script>var swiper = new Swiper(".mySwiper", { direction: "vertical", slidesPerView: "auto", freeMode: true, mousewheel: true, simulateTouch: true });document.querySelectorAll('.is-selected').forEach(el => el.classList.remove('is-selected'));document.querySelectorAll('.editable-text').forEach(el => el.removeAttribute('contenteditable'));</script></body></html>
